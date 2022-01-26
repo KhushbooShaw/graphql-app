@@ -15,7 +15,7 @@ query UsersList($count: Int, $page: Int) {
   }
 `;
 
-export const uri = "http://localhost:5000/graphql";
+export const uri = "http://graphql-faker-nextjs-app.herokuapp.com/graphql";
 export const errMessage = 'Something went wrong, Please try again !!';
 export const userMocks = [
     {
